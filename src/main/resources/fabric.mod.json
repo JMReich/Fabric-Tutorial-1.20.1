@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorial_mod",
+	"id": "tutorialmod",
 	"version": "${version}",
 	"name": "TutorialMod",
 	"description": "This is a mod based on a tutorial to get me into java minecraft modding!",
