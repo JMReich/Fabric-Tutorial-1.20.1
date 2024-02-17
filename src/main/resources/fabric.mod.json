@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial_mod",
+	"version": "${version}",
+	"name": "TutorialMod",
+	"description": "This is a mod based on a tutorial to get me into java minecraft modding!",
+	"authors": [
+		"Jacob Reich"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jacob.tutorialmod.TutorialMod"
+		],
+		"client": [
+			"net.jacob.tutorialmod.TutorialModClient"
+		],
+		"fabric-datagen": [
+			"net.jacob.tutorialmod.TutorialModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
