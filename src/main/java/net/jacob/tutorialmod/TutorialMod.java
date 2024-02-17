@@ -2,6 +2,7 @@ package net.jacob.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jacob.tutorialmod.block.ModBlocks;
 import net.jacob.tutorialmod.item.ModItemGroups;
 import net.jacob.tutorialmod.item.ModItems;
 import net.minecraft.item.ItemGroup;
@@ -19,5 +20,6 @@ public class TutorialMod implements ModInitializer {
 		// Proceed with mild caution.
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
