@@ -28,6 +28,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.ENDSTONE_RUBY_ORE);
 
+                        entries.add(ModItems.TOMATO);
+
                         entries.add(Items.DIAMOND); // Vanilla add item
                     }).build());
 
