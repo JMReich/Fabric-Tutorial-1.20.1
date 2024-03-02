@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jacob.tutorialmod.TutorialMod;
 import net.jacob.tutorialmod.item.custom.MetalDetectorItem;
 import net.jacob.tutorialmod.item.custom.ModFoodComponents;
+import net.jacob.tutorialmod.item.custom.custom_food_modify.TomatoItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -19,7 +20,7 @@ public class ModItems {
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64).fireproof()));
 
-    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO = registerItem("tomato", new TomatoItem(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette", new Item(new FabricItemSettings()));
 
 
