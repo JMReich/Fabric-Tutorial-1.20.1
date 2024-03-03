@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:ruby_ore",
+    "tutorialmod:deepslate_ruby_ore",
+    "#minecraft:gold_ores",
+    "#minecraft:coal_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:lapis_ores"
+  ]
+}
