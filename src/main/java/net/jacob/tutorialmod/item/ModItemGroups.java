@@ -32,6 +32,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COAL_BRIQUETTE);
 
+                        entries.add(ModItems.RUBY_STAFF);
+
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_SLAB);
                         entries.add(ModBlocks.RUBY_FENCE);

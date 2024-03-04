@@ -24,6 +24,7 @@
     "block.tutorialmod.ruby_wall": "Ruby Wall",
     "block.tutorialmod.ruby_door": "Ruby Door",
     "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
+    "item.tutorialmod.ruby_staff": "Ruby Staff",
 
     "Tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
     "Tooltip.tutorialmod.tomato.tooltip": "This tomato looks... lucky?",

@@ -23,6 +23,10 @@ public class ModItems {
     public static final Item TOMATO = registerItem("tomato", new TomatoItem(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette", new Item(new FabricItemSettings()));
 
+    public static final Item RUBY_STAFF = registerItem("ruby_staff",
+            new MetalDetectorItem(new FabricItemSettings().maxCount(1)));
+
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
