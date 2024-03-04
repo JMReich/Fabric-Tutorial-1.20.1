@@ -33,7 +33,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDropGenerator(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RAW_RUBY, 2.0f, 5.0f));
         addDrop(ModBlocks.NETHER_RUBY_ORE, oreDropGenerator(ModBlocks.NETHER_RUBY_ORE, ModItems.RAW_RUBY, 2.0f, 5.0f));
         addDrop(ModBlocks.ENDSTONE_RUBY_ORE, oreDropGenerator(ModBlocks.ENDSTONE_RUBY_ORE, ModItems.RAW_RUBY, 2.0f, 5.0f));
+
+        addDrop(ModBlocks.RUBY_FENCE);
+        addDrop(ModBlocks.RUBY_BUTTON);
+        addDrop(ModBlocks.RUBY_DOOR, doorDrops(ModBlocks.RUBY_DOOR));
+        addDrop(ModBlocks.RUBY_FENCE_GATE);
+        addDrop(ModBlocks.RUBY_PRESSURE_PLATE);
+        addDrop(ModBlocks.RUBY_STAIRS);
+        addDrop(ModBlocks.RUBY_WALL);
+        addDrop(ModBlocks.RUBY_SLAB, slabDrops(ModBlocks.RUBY_SLAB));
     }
+
+
 
     public LootTable.Builder oreDropGenerator(Block drop, Item item, Float min, Float max) {
         return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this.applyExplosionDecay(drop,
