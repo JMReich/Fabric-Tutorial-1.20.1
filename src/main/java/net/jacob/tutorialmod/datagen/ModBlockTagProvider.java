@@ -49,7 +49,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.NETHER_RUBY_ORE);
 
-        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_5")))
                 .add(ModBlocks.ENDSTONE_RUBY_ORE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
